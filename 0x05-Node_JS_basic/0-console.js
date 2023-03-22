@@ -1,7 +1,10 @@
-// const util = require('util');
-function displayMessage(msg) {
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ */
+const displayMessage = (msg) => {
   console.log(msg);
-  // Cloning Console.log
-  // process.stdout.write(util.format.apply(null, [msg, '\n']));
-}
+};
+
 module.exports = displayMessage;
